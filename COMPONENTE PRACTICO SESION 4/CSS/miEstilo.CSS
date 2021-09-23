@@ -1,0 +1,65 @@
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(41, 117, 231, 0.719);
+    border-radius: 10px;
+    background-color: lightblue;
+    text-align: center;
+}
+form{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 350px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+form input{
+    border-radius: 5px;
+    border: 1px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+form label{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.gender-btn{
+    border-radius: 5px;
+    border: 1px;
+    margin-left: 10px;
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;
+}
+.gender {
+    display:inline;
+    display:flex;
+    flex-wrap: nowrap;
+}
+.accept{
+    display:inline;
+    display:flex;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+}
+.btn{
+    background-color: lightblue;
+    border-radius: 5px;
+    border-color: rgb(34, 136, 167);
+}
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-color: rgb(34, 136, 167);
+}
+
+

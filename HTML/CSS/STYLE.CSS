@@ -36,7 +36,7 @@ nav li:hover{
     background-color: rgb(85, 166, 241);
     box-sizing: border-box;
     display: block;
-    clip-path: ellipse(75% 100% at 65% 0%);
+    clip-path: ellipse(75% 60% at 65% 0%);
     
 }
 .content-banner{
@@ -75,7 +75,6 @@ nav li:hover{
     display: flex;
     justify-content: space-between;
     padding: 40px 100px 0px 100px;
-
 }
 .main p{
     line-height: 35px;

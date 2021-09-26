@@ -80,6 +80,7 @@ do {
     usuario = prompt("Ingresa tu usuario");
     contrasena = prompt("Ingres tu contraseña");
 } while ((usuario !== "admin") && (contrasena !== "admin")); */
+
 let num1, num2;
 function sumar(){
     num1 = parseInt(prompt("Ingresa un numero"));
@@ -87,4 +88,34 @@ function sumar(){
     alert("La suma de los numeros es: " + (num1 + num2));
 }
 
+let mess;
+function validar(){
+    let user = document.getElementById("usuario");
+    
+    let user_length = user.value.length;
+    if (user_length == 0){
+        mess = "El usuario debe tener un valor";
+        /* document.getElementById("user-v").innerHTML = "El usuario debe tener un valor"; */
+        /* alert("Debes ingresar un valor"); */
+    }
+    let pass = document.getElementById("clave");
+    let pass_length = pass.value.length;
+    
+    if (pass_length < 8){
+        /* alert("La clave debe tener más de 8 caracteres"); */
+        document.getElementById("clave-v").innerHTML = "La clave debe tener más de 8 caracteres";
+    }
+
+    document.getElementById("user-v").innerHTML = mensaje;
+
+}
+
+function mensaje(){
+    document.getElementById("text").innerHTML = "Hola JavaScript"
+}
+let cantidad = 0;
+function comprar(){
+    cantidad ++;
+    document.getElementById("cantidadCompra").innerHTML = cantidad;
+}
 

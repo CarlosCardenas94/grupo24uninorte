@@ -6,10 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src = "script.js"></script>
+    <script src = "callbacks.js"></script>
+    <script src = "promise.js"></script>
 </head>
 <body>
     <h1>Nombre</h1>
     <input type="text" id = "nombre" onkeypress="teclaPresionada()" onfocus="foco(this)" onblur="sinFoco()">
+<p>Sumar</p>
+<input type="text" id = "a">
+<input type="text" id = "b">
+<button id "operar" onclick="sumar()">Sumar</button>
+<p id="result"></p>
 
 </body>
 </html>
